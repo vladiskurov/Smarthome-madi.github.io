@@ -1,0 +1,18 @@
+.parallax {
+    /* Set a specific height */
+    min-height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img1_p{
+    background-image: url("img/analit.jpg");
+}
+
+.img2_p{
+    background-image: url("img/face.jpg");
+}

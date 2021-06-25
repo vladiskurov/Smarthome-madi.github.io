@@ -1,0 +1,325 @@
+*{
+	font-size: 18px;
+}
+
+
+
+.logo img {
+    height: 80px;
+    margin-top: -106px;
+}
+
+
+.register {
+  padding: 300px 0;
+  background-color: black;
+  color: #fff;
+  overflow: hidden;
+  position: relative;
+}
+
+
+/* VIDEO */
+.video {
+  top: 50%;
+  width: 1938px;
+  transform: translate(-50%, -50%);
+
+  left: 50%;
+  z-index: 0;
+  position: absolute;
+}
+
+@media (max-width: 768px) {
+  .register {
+    background: url("img/stop1.png")  0 top no-repeat #0e438b;
+    -webkit-background-size: cover;
+    background-size: cover;
+
+  }
+  .video
+   {
+    display: none;
+  }
+}
+
+
+
+
+
+
+.hamburger {
+	height: 60px;
+	width: 60px;
+	background-image: url(img/menu.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 50px;
+}
+
+
+
+
+.hamburger .menu-lst{
+	height: auto;
+	width: 30vw;
+	position: absolute;
+	top: 2vh; /* Положение от нижнего края */
+	left: 0vw; /* Положение от правого края */
+	cursor: pointer;
+	background-color: white;
+	border: 0.1px solid  #8000ff;
+	border-radius: 10px;
+	display: none;
+	 z-index: 10000;
+}
+
+.hamburger  .menu-item{
+
+	width: 100%;
+	
+	
+}
+.last{
+	width: 100%;
+	
+}
+
+.menu-a{
+	margin-left: 3vw;
+	font-size: 30px;
+	color: black;
+	text-decoration: none;
+}
+.menu-a:hover{
+	color: #8000ff;
+	text-decoration: none;
+
+}
+
+#header{
+	padding: 0;
+	width: auto ;
+}
+
+.face {
+    width: auto;
+    height: 78vh;
+    background-image: url("img/an.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    margin: 0;
+}
+.toolbar {
+
+	height:15vh;
+	width: auto;
+	margin: 0;
+	background: linear-gradient(to right, rgb(66, 170, 255), #ffc0cb);
+}
+
+
+
+.header_text{
+	margin-top: 35vh;
+	margin-bottom: 45vh;
+	margin-left: 0;
+	margin-right: 0;
+	font-size: 50px;
+	background: #8000ff; linear-gradient(to top left, #00ffff, #8000ff);
+	height: 20vh;
+	width: 80vw;
+	text-align: center;
+	padding-top: 5vh;
+	border-radius: 10px;
+}
+
+.header_text1{
+	
+	border-radius: 10px;
+ 
+	padding-top: 5vh;
+	height: 15vh;
+	width: auto;
+}
+
+section{
+	padding: 6vh;
+}
+
+
+.card{
+	height: auto;
+}
+
+.card1{
+	height: auto;
+}
+
+.mg2{
+	width: 80%;
+	align-self: center;
+}
+
+.products{
+	background-image: url("img/an.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+
+}
+
+
+.main_form{
+	
+}
+
+.section_img img{
+	height: 46vh;
+}
+.section_img1 img{
+	height: auto;
+	margin-top: 3vh;
+	margin-left: 5vw;
+}
+
+.text_about{
+	font-size: 24px;
+}
+
+.partner-img{
+	height: auto;
+	max-width: 20vw;
+}
+
+.about_product{
+	background: linear-gradient(to right top, #8000ff, #00ffff);
+	color: white;
+}
+
+.mt1{
+	margin-top: 3vh;
+}
+
+.mb1{
+	margin-bottom: 3vh;
+}
+
+.mg1{
+	width: 20vw;
+
+}
+
+.card-img-top{
+	height: 30vh;
+}
+h3{
+	font-size: 21px;
+}
+
+.team{
+	background: linear-gradient(to right bottom, #8000ff, #00ffff);
+}
+
+
+@media (max-width: 1920px) {
+	h1{
+		font-size: 25px;
+	}
+
+
+	section{
+		padding: 3vh;
+	}
+	.mg_b1{
+		margin-bottom: 3vh;
+	}
+	h3{
+		font-size: 14px;
+	}
+	.fs1{
+		font-size: 10px;
+	}
+
+	.menu-a{
+		font-size: 15px;
+	}
+}
+
+@media (max-width: 800px) {
+	.reg_img{
+		max-width: 80vw;
+		margin-bottom: 3vh;
+	}
+	.mg1{
+		margin-top: 2vh;
+	}
+}
+
+@media all and (min-width: 0px) and (max-width: 500px){
+
+	#header{
+		padding: 0;
+	}
+
+	.face{
+		width: 100vw;
+		margin: 0;
+	}
+	.toolbar {
+		height:15vh;
+		width: 100vw;
+		margin: 0;
+	}
+
+	.hamburger .menu-lst{
+		height: auto;
+		width: 52vw;
+		position: absolute;
+		top: 2vh; /* Положение от нижнего края */
+		left: 0vw; /* Положение от правого края */
+	}
+
+	.hamburger .menu-lst .menu-item{
+
+		width: 100%;
+		border-bottom: 1px solid  #8000ff;
+	}
+	.last{
+		width: 100%;
+	}
+
+	.menu-a{
+		margin-left: 6vw;
+		font-size: 30px;
+	}
+
+
+
+	.about_product_img{
+		align-self: center;
+		width: 70vw;
+	}
+
+	.mg1{
+		height: 35vh;
+		min-width: 33vw;
+		width:auto;
+	}
+	.mg2{
+		height: 60%;
+	}
+	h3{
+		font-size: 16px;
+	}
+	.fs1{
+		font-size: 12px;
+	}
+
+
+}
+
+
+
+
